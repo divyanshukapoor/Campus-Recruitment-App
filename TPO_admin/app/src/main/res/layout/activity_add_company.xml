@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:background="@drawable/backg1"
+tools:context="avishkar2k17.com.tpo_admin.Add_company">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="Training and Placement Office"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="normal|bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+        <EditText
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:paddingLeft="3sp"
+            android:textColor="#000"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:id="@+id/company_name"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/background_light"
+            android:inputType="textPersonName"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:hint="Company Name" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:text="Stipend"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:id="@+id/tv1" />
+                <EditText
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:id="@+id/stipend"
+                    android:hint="stipend"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:text="Min. CPI"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:id="@+id/tv2" />
+                <EditText
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:id="@+id/cpi"
+                    android:hint="cpi"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:text="Branch"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:id="@+id/tv3" />
+                <EditText
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:id="@+id/branch"
+                    android:hint="branches(,)" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:text="Designation"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:id="@+id/tv4" />
+                <EditText
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:id="@+id/designation"
+                    android:hint="designation" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:text="Location"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:id="@+id/tv5" />
+                <EditText
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:id="@+id/location"
+                    android:hint="location"
+                    android:inputType="textPostalAddress" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:text="DeadLine"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:id="@+id/tv6"
+                    android:inputType="datetime"/>
+                <EditText
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:paddingLeft="3sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:id="@+id/time"
+                    android:hint="deadline" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+        </TableLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_marginTop="25dp"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_gravity="center"
+            android:text="Open Registeration"
+            android:id="@+id/regButton"
+            android:background="@drawable/circle_button_2"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

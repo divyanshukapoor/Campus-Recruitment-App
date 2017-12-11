@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="avishkar2k17.com.tpo_admin">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Company"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Select"/>
+        <activity android:name=".Select"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ReduceCredits"
+            android:parentActivityName=".Select"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Add_company"
+            android:parentActivityName=".Company"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Details"
+            android:parentActivityName=".Branch_select"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Userdetail"
+            android:parentActivityName=".Verify_user"
+            android:label="@string/title_activity_userdetail"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Verify_user"
+            android:parentActivityName=".Select"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentDetail"
+            android:parentActivityName=".Details"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Close_reg"
+            android:parentActivityName=".Company"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Branch_select"
+            android:parentActivityName=".Select"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Update_Intern"
+            android:parentActivityName=".Company"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Comp_Intern"
+            android:parentActivityName=".Company"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Student_List"
+            android:parentActivityName=".Details"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

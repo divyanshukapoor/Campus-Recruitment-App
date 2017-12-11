@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Admin</string>
+    <string name="httpUrl">http://192.168.0.102/project</string>
+    <string name="title_activity_userdetail">Userdetail</string>
+</resources>

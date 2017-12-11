@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backg1"
+    tools:context="avishkar2k17.com.tpo.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:text="Academic Details:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="?android:attr/colorForeground"
+
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Details of 10th Boards:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="10th Board:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/boards_10"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:textColorHint="#000"
+                android:hint="10th Board"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="10th School:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/school_10"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColorHint="#000"
+                android:hint="10th School"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <TextView
+                android:text="Year of 10th Board:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textColorHint="#000"
+                android:id="@+id/year_10"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:hint="Year of 10th" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Percentage of 10th Board:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textColorHint="#000"
+                android:id="@+id/percet_10"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:hint="Percentage"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Details of 12th Boards:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:text="12th Board:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/boards_12"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:textColorHint="#000"
+                android:hint="12th Board"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="10th School:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/school_12"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColorHint="#000"
+                android:hint="12th School"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <TextView
+                android:text="Year of 10th Board:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textColorHint="#000"
+                android:id="@+id/year_12"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:hint="Year of 12th" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Percentage of 12th Board:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:textSize="15sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textColorHint="#000"
+                android:id="@+id/percent_12"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:hint="Percentage"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B.Tech Semester Wise Performance"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:text="Year"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:id="@+id/year" />
+                    <TextView
+                        android:text="Odd Semester"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:id="@+id/oddsem" />
+                    <TextView
+                        android:text="Even Semester"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:paddingLeft="3sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:id="@+id/evensem" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#000"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:text="I"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:id="@+id/yr2015" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_weight="30"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:hint="1 sem"
+                        android:textColorHint="#000"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/sem1" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColorHint="#000"
+                        android:hint="2 sem"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="20dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/sem2" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:text="II"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:id="@+id/yr2016" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_weight="30"
+                        android:hint="3 sem"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColorHint="#000"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/sem3" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColorHint="#000"
+                        android:hint="4 sem"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="20dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/sem4" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:text="III"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:id="@+id/yr2017" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_weight="30"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:hint="5 sem"
+                        android:textColorHint="#000"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/sem5" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColorHint="#000"
+                        android:hint="6 sem"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="20dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/sem6" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:text="IV"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:id="@+id/yr2018" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:layout_weight="30"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:hint="7 sem"
+                        android:textColorHint="#000"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/sem7" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:paddingLeft="3sp"
+                        android:textColorHint="#000"
+                        android:hint="8 sem"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="20dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/sem8" />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#000"/>
+            </TableLayout>
+            <Button
+                android:text="Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/submit_acde"
+                android:textColor="@android:color/background_dark"
+                android:padding="16dp"
+                android:layout_marginBottom="50dp"
+                android:clickable="true"
+                android:background="@drawable/circular_button_layout"
+                android:layout_marginTop="24dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

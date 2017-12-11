@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backg8"
+    tools:context="avishkar2k17.com.tpo.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                app:srcCompat="@drawable/mnnit_logo"
+                android:cacheColorHint="@android:color/transparent"
+                android:layout_marginTop="20dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <TextView
+                android:text="Motilal Nehru National Institute of Technology"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textColor="?attr/editTextColor"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="Training and Placement Office"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/backg4" />
+            <View
+                android:layout_width="match_parent"
+                android:background="#000"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_height="2dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/backg4">
+
+                <Button
+                    android:text="Students' Intern Portal (SIP)"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:id="@+id/sip_button"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:visibility="visible"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_weight="1" />
+                <Button
+                    android:text="Students' Placement Portal (SPP)"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:id="@+id/spp_button"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:visibility="visible"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

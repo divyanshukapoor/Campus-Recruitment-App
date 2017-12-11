@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View and Edit Details " />
+        <item
+            android:id="@+id/nav_password"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_interview"
+            android:title="Current Companies" />
+        <item
+            android:id="@+id/nav_ivexperience"
+            android:title="Add Experience" />
+
+        <item
+            android:id="@+id/nav_viewexperience"
+            android:title="View Experiences" />
+
+        <item
+            android:id="@+id/nav_graph"
+            android:title="Statistics" />
+
+    </group>
+
+
+
+</menu>

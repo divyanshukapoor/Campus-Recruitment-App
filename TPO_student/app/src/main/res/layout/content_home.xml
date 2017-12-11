@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="5dp"
+    style="bold"
+   android:background="@drawable/backg8"
+    tools:context="avishkar2k17.com.tpo.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="25sp"
+                android:layout_marginTop="40dp"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="normal|bold"
+                android:text="Profile" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/defaultimage"
+                    android:id="@+id/profile_logged"
+                    android:background="@android:color/transparent"
+                    android:baselineAlignBottom="false"
+                    android:layout_weight="0.27"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="250dp"
+                    android:maxWidth="200dp"/>
+
+                <TextView
+                    android:text="Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name_logged"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:typeface="sans"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:text="Registration No."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:typeface="sans"
+                        style="bold"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/reg_logged"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    style="bold">
+                    <TextView
+                        android:text="Verified"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="15dp"
+                        android:textStyle="bold"
+                        android:typeface="sans"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/profile_verified"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="TPO Credits:-"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textStyle="normal|bold"
+                        style="bold"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tpo"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:text="CPI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:typeface="sans"
+                        style="bold"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cpi2"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    style="bold">
+                    <TextView
+                        android:text="Company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="15dp"
+                        android:textStyle="bold"
+                        android:typeface="sans"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/comp_intern"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-smallcaps">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

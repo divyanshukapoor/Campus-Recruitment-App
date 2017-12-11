@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_close_reg"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:orientation="vertical"
+tools:context="avishkar2k17.com.tpo_admin.Close_reg"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/backg1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@android:color/transparent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold"
+            android:text="Students' Internship Portal"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="5dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+        <TextView
+            android:text="Close Registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="normal|bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/comname"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="close Registration"
+            android:background="@drawable/circular_button_layout"
+            android:layout_marginTop="20dp"
+            android:id="@+id/close" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg1"
+    android:id="@+id/activity_reduce_credits"
+
+    tools:context="avishkar2k17.com.tpo_admin.ReduceCredits">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Change Credits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/backg4">
+
+            <TextView
+                android:text="Registration Number:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-smallcaps" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/regno"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:text="New TPO Credits:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/tv1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+
+                android:id="@+id/cred"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:text="Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/submit"
+                android:background="@drawable/circular_button_layout" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+</LinearLayout>

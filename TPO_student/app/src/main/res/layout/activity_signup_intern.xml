@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backg9"
+    tools:context="avishkar2k17.com.tpo.MainActivity">
+    <!-- -->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="24sp"
+                android:layout_marginTop="28dp"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"
+                android:text="Students' Internship Portal"
+                android:background="@android:drawable/button_onoff_indicator_off"
+                android:gravity="center" />
+
+
+            <TextView
+                android:text="Signup (Put a Request):-"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginTop="30dp"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif-smallcaps" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/name"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/account"
+                android:hint="Name"
+                android:textSize="24sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/key"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:hint="Password"
+                android:textSize="24sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/confirm"
+                android:drawableLeft="@drawable/key"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:hint="Re-enter Password"
+                android:textSize="24sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000"/>
+
+            <TextView
+                android:text="Branch:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textColor="?android:attr/colorForeground"
+                android:layout_marginTop="5dp" />
+
+            <Spinner
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/spinner_background"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/email"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/email_2"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:hint="Email ID:-"
+                android:textSize="24sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/reg_no"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/account"
+                android:hint="Registration Number"
+                android:textSize="24sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/contact"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/phone"
+                android:hint="Mobile Number"
+                android:textSize="24sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/cpi1"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:hint="CPI"
+                android:drawableLeft="@drawable/account"
+                android:textSize="24sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:text="Upload Image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/upload"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textStyle="normal|bold"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:textSize="12sp"
+                    android:id="@+id/filePathv"
+                    android:textColor="?android:attr/colorForeground"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+
+            <Button
+                android:text="SignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonForSubmit"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/circular_button_layout" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_shape"
+    tools:context="avishkar2k17.com.tpo.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Personal Details:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+
+                android:textSize="20sp"
+                android:textColor="?android:attr/colorForeground"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Name:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:clickable="true"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="normal|bold"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/name_per"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/account"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textColorHint="#000000"
+                android:padding="3dp"
+                android:hint="Name"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Father's Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:clickable="true"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="normal|bold"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/father_per"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/account"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:padding="3dp"
+                android:textColorHint="#000"
+                android:hint="Father's Name"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Mother's Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:clickable="true"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="normal|bold"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/mother_per"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/account"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:padding="3dp"
+                android:textColorHint="#000"
+                android:hint="Mother's Name"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Email-id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:clickable="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="normal|bold"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textWebEmailAddress"
+                android:ems="10"
+                android:id="@+id/email_per"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/email_2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:padding="3dp"
+                android:textColorHint="#000"
+                android:hint="Email-id"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Phone Number:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:clickable="true"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="normal|bold"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/phone_per"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/phone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:padding="3dp"
+                android:textColorHint="#000"
+                android:hint="Phone Number"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:text="Address:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:clickable="true"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="normal|bold"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/address_per"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/address"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:padding="3dp"
+                android:textColorHint="#000"
+                android:hint="Address" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <Button
+                android:text="Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/submit_per"
+                android:textColor="@android:color/background_dark"
+                android:padding="10dp"
+                android:clickable="true"
+                android:layout_marginTop="14dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+
+                android:background="@drawable/round_shape_2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

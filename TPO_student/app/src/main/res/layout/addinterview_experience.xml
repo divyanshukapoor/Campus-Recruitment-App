@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backg9"
+    tools:context="avishkar2k17.com.tpo.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="Training and Placement Office"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="25sp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="normal|bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company Name"
+                android:layout_gravity="center"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:id="@+id/name"
+                android:textSize="25dp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+                    <EditText
+                        android:id="@+id/ivexperience"
+                        android:layout_width="match_parent"
+                        android:layout_height="291dp"
+                        android:hint="Add Interview Experience here."
+                        android:textColorHint="#000"
+                        android:layout_marginTop="20dp"
+                        android:inputType="textCapSentences|textMultiLine"
+                        android:maxLength="20000"
+                        android:maxLines="400"
+                        android:background="@drawable/backg4"
+                        android:gravity="top|left"
+                        android:paddingLeft="2dp"
+                        android:paddingTop="2dp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="25dp"
+
+                        style="@style/Base.TextAppearance.AppCompat.Body1"
+                        android:background="@drawable/circular_button_layout"
+                        android:layout_gravity="center|bottom"
+
+                        android:text="Add"
+                        android:id="@+id/addButton"
+                        android:layout_weight="5.30" />
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="avishkar2k17.com.tpo.Edit_Profile">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Contact"
+        android:orderInCategory="100"
+        android:title="Contact us"
+        app:showAsAction="never" />
+</menu>
