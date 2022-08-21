@@ -7,6 +7,7 @@ have registered through the Application. So whenever someone want to view his
 /her profile he can do so using the app , the app fetches the individuals details
 after authenticating him/her.
 
+# new edit 2
 2. This password is stored in encrypted form in the database so if a person who
 is not supposed to view the details of the student gets a peek at the database in
 open state he won’t be able to figure out the actual password of the students.
