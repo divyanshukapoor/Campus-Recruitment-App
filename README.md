@@ -6,6 +6,7 @@
 have registered through the Application. So whenever someone want to view his
 /her profile he can do so using the app , the app fetches the individuals details
 after authenticating him/her.
+# new edit
 
 # new edit 2
 2. This password is stored in encrypted form in the database so if a person who
